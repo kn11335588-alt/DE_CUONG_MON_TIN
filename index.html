@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuizTin — Ôn tập Tin học</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg" aria-hidden="true">
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+  <div class="blob b3"></div>
+  <div class="blob b4"></div>
+  <div class="blob b5"></div>
+  <div class="stars"></div>
+  <div class="vignette"></div>
+</div>
+
+<div id="app">
+
+  <header class="topbar">
+    <button id="btn-home" class="icon-btn hidden" title="Về trang chủ" aria-label="Về trang chủ">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
+    </button>
+    <div class="brand">
+      <span class="logo">Q</span>
+      <div class="brand-text">
+        <h1>QuizTin</h1>
+        <p>Ôn tập Tin học</p>
+      </div>
+    </div>
+    <div class="mastery-chip" id="mastery-chip" title="Số câu trả lời đúng ở lượt gần nhất">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 12.5l2.5 2.5L16 9.5"/></svg>
+      <span id="mastery-label">0 / 0</span>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HOME ============ -->
+    <section id="screen-home" class="screen">
+      <div class="hero glass">
+        <h2>Học Tin học <span class="grad-text">thuộc lâu, quên chậm</span></h2>
+        <p class="hero-sub">Bộ đề gồm <strong>55 câu trắc nghiệm</strong> và <strong>15 câu Đúng/Sai (60 ý)</strong> — học bằng thẻ ghi nhớ, luyện tập phản xạ hoặc làm bài kiểm tra có chấm điểm.</p>
+        <div class="part-picker" id="part-picker">
+          <button class="chip active" data-part="1">Phần I · Trắc nghiệm (55)</button>
+          <button class="chip active" data-part="2">Phần II · Đúng/Sai (60 ý)</button>
+        </div>
+      </div>
+
+      <div class="modes">
+        <button class="mode-card glass" data-mode="flash">
+          <span class="mode-icon mi-violet">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="14" height="12" rx="2"/><path d="M7 9h6M7 12.5h4"/><path d="M19 8.5l2 1.5-8.5 9L10 17"/></svg>
+          </span>
+          <span class="mode-name">Thẻ ghi nhớ</span>
+          <span class="mode-desc">Lật thẻ, tự đánh giá «Đã thuộc / Chưa thuộc». Có chế độ <strong>đảo câu hỏi ↔ đáp án</strong>.</span>
+        </button>
+        <button class="mode-card glass" data-mode="learn">
+          <span class="mode-icon mi-cyan">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.4" fill="currentColor" stroke="none"/></svg>
+          </span>
+          <span class="mode-name">Luyện tập</span>
+          <span class="mode-desc">Trả lời từng câu, phản hồi ngay lập tức, ôn lại các câu trả lời sai.</span>
+        </button>
+        <button class="mode-card glass" data-mode="test">
+          <span class="mode-icon mi-pink">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 3.5V5h6V3.5"/><path d="M8.5 10l1.2 1.2 2-2.2M8.5 15.5l1.2 1.2 2-2.2"/><path d="M14 10.5h2.5M14 16h2.5"/></svg>
+          </span>
+          <span class="mode-name">Bài kiểm tra</span>
+          <span class="mode-desc">Chọn số câu, làm trọn bài rồi chấm điểm và xem lại lỗi sai.</span>
+        </button>
+      </div>
+
+      <div class="test-config glass" id="test-config">
+        <div class="cfg-row">
+          <span class="cfg-label">Số câu trắc nghiệm</span>
+          <div class="cfg-chips" data-cfg="mc">
+            <button class="chip" data-val="10">10</button>
+            <button class="chip active" data-val="20">20</button>
+            <button class="chip" data-val="55">Cả 55</button>
+          </div>
+        </div>
+        <div class="cfg-row">
+          <span class="cfg-label">Số ý Đúng/Sai</span>
+          <div class="cfg-chips" data-cfg="tf">
+            <button class="chip" data-val="8">8</button>
+            <button class="chip active" data-val="16">16</button>
+            <button class="chip" data-val="60">Cả 60</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass stats-panel">
+        <h3>Tiến độ thành thạo</h3>
+        <div id="home-stats"></div>
+      </div>
+    </section>
+
+    <!-- ============ FLASHCARDS ============ -->
+    <section id="screen-flash" class="screen hidden">
+      <div class="session-bar glass">
+        <div class="bar-left">
+          <span class="bar-count" id="flash-count">1 / 55</span>
+          <div class="progress"><div class="progress-fill" id="flash-fill"></div></div>
+        </div>
+        <div class="bar-right">
+          <button class="chip-btn" id="btn-shuffle" title="Trộn thứ tự thẻ">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h4l10 10h4M21 17l-2-2m2 2l-2 2"/><path d="M3 17h4l2.5-2.5M14.5 9.5L17 7h4M21 7l-2-2m2 2l-2 2"/></svg>
+            Trộn
+          </button>
+          <label class="switch" title="Đổi mặt trước/sau của thẻ">
+            <input type="checkbox" id="swap-toggle">
+            <span class="track"></span>
+            <span class="switch-label">Đảo hỏi ↔ đáp</span>
+          </label>
+        </div>
+      </div>
+
+      <div class="card3d" id="flashcard">
+        <div class="card-inner" id="card-inner">
+          <div class="face front" id="face-front"></div>
+          <div class="face back" id="face-back"></div>
+        </div>
+      </div>
+      <p class="flip-hint" id="flip-hint">Nhấn vào thẻ hoặc phím Space để lật</p>
+
+      <div class="flash-controls">
+        <button class="nav-btn" id="btn-prev" aria-label="Thẻ trước">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg>
+        </button>
+        <button class="btn-primary" id="btn-flip">Lật thẻ</button>
+        <button class="nav-btn" id="btn-next" aria-label="Thẻ sau">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+
+      <div class="flash-grade" id="flash-grade">
+        <button class="grade-btn unknown" id="btn-unknown">Chưa thuộc</button>
+        <button class="grade-btn known" id="btn-known">Đã thuộc</button>
+      </div>
+    </section>
+
+    <!-- ============ QUIZ (learn + test) ============ -->
+    <section id="screen-quiz" class="screen hidden">
+      <div class="session-bar glass">
+        <div class="bar-left">
+          <span class="bar-count" id="quiz-count">1 / 20</span>
+          <div class="progress"><div class="progress-fill" id="quiz-fill"></div></div>
+        </div>
+        <div class="bar-right">
+          <span class="score-chip hidden" id="learn-score">Đúng: 0</span>
+          <span class="score-chip hidden" id="test-answered">Đã trả lời: 0/0</span>
+          <button class="btn-primary small hidden" id="btn-submit">Nộp bài</button>
+        </div>
+      </div>
+
+      <div class="quiz-card glass" id="quiz-body"></div>
+      <div class="quiz-footer" id="quiz-footer"></div>
+    </section>
+
+    <!-- ============ RESULTS ============ -->
+    <section id="screen-results" class="screen hidden">
+      <div class="results-card glass">
+        <div class="results-top">
+          <svg class="ring" viewBox="0 0 120 120">
+            <defs>
+              <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#8b5cf6"/>
+                <stop offset="55%" stop-color="#ec4899"/>
+                <stop offset="100%" stop-color="#22d3ee"/>
+              </linearGradient>
+            </defs>
+            <circle class="ring-bgc" cx="60" cy="60" r="52"/>
+            <circle class="ring-fgc" id="ring-fg" cx="60" cy="60" r="52"/>
+          </svg>
+          <div class="results-summary">
+            <div class="results-pct" id="results-pct">0%</div>
+            <div class="results-msg" id="results-msg">Tuyệt vời!</div>
+            <div class="results-detail" id="results-detail"></div>
+          </div>
+        </div>
+        <div id="review-block"></div>
+        <div class="results-actions">
+          <button class="btn-primary" id="btn-retry-wrong">Luyện lại câu sai</button>
+          <button class="btn-ghost" id="btn-retry-all">Làm lại toàn bộ</button>
+          <button class="btn-ghost" id="btn-go-home">Trang chủ</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="credit">QuizTin — học tập không cần kết nối mạng, tiến độ được lưu ngay trên máy bạn.</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

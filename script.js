@@ -2,8 +2,8 @@
 
 /* ============================================================
    DỮ LIỆU BỘ ĐỀ
-   Phần I : 55 câu trắc nghiệm nhiều lựa chọn  (answer: chỉ số 0..3)
-   Phần II: 15 câu Đúng/Sai, mỗi câu 4 ý a-b-c-d (answer: true/false)
+   Phần I :  câu trắc nghiệm nhiều lựa chọn  (answer: chỉ số 0..3)
+   Phần II:  câu Đúng/Sai, mỗi câu 4 ý a-b-c-d (answer: true/false)
    ============================================================ */
 
 const PART1 = {

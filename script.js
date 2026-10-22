@@ -13,7 +13,7 @@ const PART1 = {
   type: "mc",
   questions: [
     {
-      q: "Câu 1. Trong môn Tin học, “dữ liệu” là thuật ngữ được sử dụng rất phổ biến. Phát biểu nào sau đây định nghĩa đúng nhất về “dữ liệu” theo góc độ của máy tính?",
+      q: " Trong môn Tin học, “dữ liệu” là thuật ngữ được sử dụng rất phổ biến. Phát biểu nào sau đây định nghĩa đúng nhất về “dữ liệu” theo góc độ của máy tính?",
       options: [
         "Là ý nghĩa thực sự của các con số và văn bản mang lại sự hiểu biết cho người dùng trong đời sống.",
         "Là kết quả cuối cùng mà máy tính trả về cho người dùng sau một quá trình tính toán phức tạp.",
@@ -23,7 +23,7 @@ const PART1 = {
       answer: 2
     },
     {
-      q: "Câu 2. Dữ liệu và thông tin có mối quan hệ chặt chẽ nhưng độc lập tương đối. Phát biểu nào sau đây mô tả đúng nhất về tính toàn vẹn của thông tin?",
+      q: " Dữ liệu và thông tin có mối quan hệ chặt chẽ nhưng độc lập tương đối. Phát biểu nào sau đây mô tả đúng nhất về tính toàn vẹn của thông tin?",
       options: [
         "Cùng một thông tin chỉ có duy nhất một cách thể hiện dữ liệu trong mọi trường hợp.",
         "Một dữ liệu bất kỳ đưa vào máy tính luôn mang duy nhất một thông tin không thay đổi.",
@@ -33,7 +33,7 @@ const PART1 = {
       answer: 3
     },
     {
-      q: "Câu 3. Trong sổ khám bệnh của một học sinh có ghi dòng chữ “39 °C”. Khi bác sĩ đọc cuốn sổ này, bác sĩ đã kết luận: “Học sinh này đang bị sốt cao”. Dựa vào sự phân biệt trong Tin học, nhận định nào sau đây là đúng?",
+      q: " Trong sổ khám bệnh của một học sinh có ghi dòng chữ “39 °C”. Khi bác sĩ đọc cuốn sổ này, bác sĩ đã kết luận: “Học sinh này đang bị sốt cao”. Dựa vào sự phân biệt trong Tin học, nhận định nào sau đây là đúng?",
       options: [
         "“39 °C” là dữ liệu đầu vào, còn “Học sinh này đang bị sốt cao” là thông tin được rút ra.",
         "“39 °C” là thông tin đã được xử lí, còn “Học sinh này đang bị sốt cao” là dữ liệu thô.",
@@ -43,12 +43,12 @@ const PART1 = {
       answer: 0
     },
     {
-      q: "Câu 4. Học sinh A có một tệp tài liệu bài giảng định dạng PDF với dung lượng là 3 MB. Để tải lên một hệ thống học trực tuyến, hệ thống yêu cầu kiểm tra dung lượng theo đơn vị KB. Dung lượng của tệp tài liệu này tương đương với bao nhiêu KB?",
+      q: " Học sinh A có một tệp tài liệu bài giảng định dạng PDF với dung lượng là 3 MB. Để tải lên một hệ thống học trực tuyến, hệ thống yêu cầu kiểm tra dung lượng theo đơn vị KB. Dung lượng của tệp tài liệu này tương đương với bao nhiêu KB?",
       options: ["3000 KB", "3072 KB", "3048 KB", "3000000 KB"],
       answer: 1
     },
     {
-      q: "Câu 5. Quá trình xử lí thông tin của máy tính gồm ba bước cơ bản: Tiếp nhận dữ liệu, Xử lí dữ liệu và Đưa ra kết quả. Hoạt động nào dưới đây mô tả đúng nhất bước “Xử lí dữ liệu”?",
+      q: " Quá trình xử lí thông tin của máy tính gồm ba bước cơ bản: Tiếp nhận dữ liệu, Xử lí dữ liệu và Đưa ra kết quả. Hoạt động nào dưới đây mô tả đúng nhất bước “Xử lí dữ liệu”?",
       options: [
         "Máy quét (scanner) quét một tài liệu giấy để tạo thành tệp hình ảnh lưu trong ổ cứng.",
         "Phần mềm chuyên dụng tổng hợp nhiệt độ nhiều năm để tìm ra khuynh hướng Trái Đất nóng lên.",
@@ -58,12 +58,12 @@ const PART1 = {
       answer: 1
     },
     {
-      q: "Câu 6. Một người thợ nhiếp ảnh có một chiếc thẻ nhớ với dung lượng 16 GB. Máy ảnh được thiết lập để mỗi bức ảnh chụp ra có dung lượng trung bình khoảng 10 MB. Hỏi chiếc thẻ nhớ này có thể chứa tối đa khoảng bao nhiêu bức ảnh như vậy?",
+      q: " Một người thợ nhiếp ảnh có một chiếc thẻ nhớ với dung lượng 16 GB. Máy ảnh được thiết lập để mỗi bức ảnh chụp ra có dung lượng trung bình khoảng 10 MB. Hỏi chiếc thẻ nhớ này có thể chứa tối đa khoảng bao nhiêu bức ảnh như vậy?",
       options: ["Khoảng 1600 bức ảnh", "Khoảng 1638 bức ảnh", "Khoảng 2048 bức ảnh", "Khoảng 16384 bức ảnh"],
       answer: 1
     },
     {
-      q: "Câu 7. Thư viện trường có 2000 cuốn sách cổ cần được số hoá. Ước tính, sau khi số hóa bao gồm cả văn bản và hình ảnh, mỗi cuốn sách tốn khoảng 50 MB dung lượng. Thư viện dự định mua một thẻ nhớ dung lượng 128 GB để lưu trữ toàn bộ số sách này. Đánh giá nào sau đây là chính xác nhất về phương án này?",
+      q: " Thư viện trường có 2000 cuốn sách cổ cần được số hoá. Ước tính, sau khi số hóa bao gồm cả văn bản và hình ảnh, mỗi cuốn sách tốn khoảng 50 MB dung lượng. Thư viện dự định mua một thẻ nhớ dung lượng 128 GB để lưu trữ toàn bộ số sách này. Đánh giá nào sau đây là chính xác nhất về phương án này?",
       options: [
         "Thẻ nhớ không đủ sức chứa vì tổng dữ liệu cần lưu là 100 GB, lớn hơn sức chứa khả dụng của thẻ nhớ.",
         "Thẻ nhớ có thể chứa được vì tổng dữ liệu cần lưu khoảng gần 98 GB, nhỏ hơn dung lượng thực tế của thẻ nhớ 128 GB.",
@@ -73,7 +73,7 @@ const PART1 = {
       answer: 1
     },
     {
-      q: "Câu 8. Trong các thiết bị dưới đây, thiết bị nào được xếp vào nhóm thiết bị thông minh?",
+      q: " Trong các thiết bị dưới đây, thiết bị nào được xếp vào nhóm thiết bị thông minh?",
       options: [
         "Đồng hồ cơ học",
         "Cân đĩa truyền thống",
@@ -83,7 +83,7 @@ const PART1 = {
       answer: 2
     },
     {
-      q: "Câu 9. Đặc điểm cốt lõi nào sau đây giúp một thiết bị điện tử được xem là “thiết bị thông minh”?",
+      q: " Đặc điểm cốt lõi nào sau đây giúp một thiết bị điện tử được xem là “thiết bị thông minh”?",
       options: [
         "Thiết bị có giá thành sản xuất cao và thiết kế bề ngoài đẹp mắt.",
         "Thiết bị có màn hình cảm ứng lớn và sử dụng năng lượng mặt trời.",
@@ -93,12 +93,12 @@ const PART1 = {
       answer: 3
     },
     {
-      q: "Câu 10. Việc đưa robot vào hoạt động trong các nhà máy điện hạt nhân hoặc thám hiểm dưới đáy biển sâu minh họa cho đóng góp nào của Tin học?",
+      q: " Việc đưa robot vào hoạt động trong các nhà máy điện hạt nhân hoặc thám hiểm dưới đáy biển sâu minh họa cho đóng góp nào của Tin học?",
       options: ["Giao tiếp cộng đồng", "Quản lí nghiệp vụ tài chính", "Tự động hóa", "Thay đổi phương thức in ấn"],
       answer: 2
     },
     {
-      q: "Câu 11. Đặc điểm nổi bật nào dưới đây mô tả đúng nhất về cuộc Cách mạng công nghiệp lần thứ tư (Cách mạng công nghiệp 4.0)?",
+      q: " Đặc điểm nổi bật nào dưới đây mô tả đúng nhất về cuộc Cách mạng công nghiệp lần thứ tư (Cách mạng công nghiệp 4.0)?",
       options: [
         "Sự chuyển dịch từ lao động thủ công sang cơ giới hóa với động cơ hơi nước.",
         "Sử dụng dây chuyền sản xuất hàng loạt dựa vào năng lượng điện.",
@@ -108,7 +108,7 @@ const PART1 = {
       answer: 2
     },
     {
-      q: "Câu 12. Một trường THPT triển khai hệ thống điểm danh điện tử. Học sinh quẹt thẻ thông minh tại cổng, hệ thống tự động ghi nhận thời gian, cập nhật dữ liệu lên máy chủ của trường và gửi tin nhắn thông báo đến ứng dụng trên điện thoại của phụ huynh. Hệ thống này thể hiện rõ nhất vai trò của Tin học trong lĩnh vực nào?",
+      q: " Một trường THPT triển khai hệ thống điểm danh điện tử. Học sinh quẹt thẻ thông minh tại cổng, hệ thống tự động ghi nhận thời gian, cập nhật dữ liệu lên máy chủ của trường và gửi tin nhắn thông báo đến ứng dụng trên điện thoại của phụ huynh. Hệ thống này thể hiện rõ nhất vai trò của Tin học trong lĩnh vực nào?",
       options: [
         "Giải quyết các bài toán khoa học không gian.",
         "Quản lí điều hành và giao tiếp cộng đồng.",
@@ -118,7 +118,7 @@ const PART1 = {
       answer: 1
     },
     {
-      q: "Câu 13. Gia đình bạn Nam vừa mua một chiếc tủ lạnh mới. Tính năng nào sau đây chứng tỏ chiếc tủ lạnh này thực sự là một “thiết bị thông minh” chứ không phải thiết bị điện tử thông thường?",
+      q: " Gia đình bạn Nam vừa mua một chiếc tủ lạnh mới. Tính năng nào sau đây chứng tỏ chiếc tủ lạnh này thực sự là một “thiết bị thông minh” chứ không phải thiết bị điện tử thông thường?",
       options: [
         "Tủ lạnh có kích thước lớn, lưu trữ được nhiều thực phẩm hơn tủ lạnh cũ.",
         "Tủ lạnh sử dụng rơ-le nhiệt cơ học để tự động ngắt máy nén khi đủ độ lạnh.",
@@ -128,7 +128,7 @@ const PART1 = {
       answer: 3
     },
     {
-      q: "Câu 14. Xe tự hành (ô tô không người lái) được xem là một thành tựu điển hình của Cách mạng công nghiệp 4.0. Mô tả nào sau đây thể hiện đầy đủ và chính xác nhất sự tích hợp thực - ảo trong quá trình vận hành của xe tự hành?",
+      q: " Xe tự hành (ô tô không người lái) được xem là một thành tựu điển hình của Cách mạng công nghiệp 4.0. Mô tả nào sau đây thể hiện đầy đủ và chính xác nhất sự tích hợp thực - ảo trong quá trình vận hành của xe tự hành?",
       options: [
         "Xe sử dụng động cơ đốt trong truyền thống để di chuyển, sau đó người lái xe dùng điện thoại thông minh để tìm kiếm đường đi trên World Wide Web.",
         "Cảm biến trên xe thu thập dữ liệu môi trường thực tế, hệ thống AI tính toán tốc độ/hướng đi tối ưu trong không gian số, rồi gửi quyết định điều khiển xe trên đường thực.",
@@ -138,7 +138,7 @@ const PART1 = {
       answer: 1
     },
     {
-      q: "Câu 15. Theo cách phân loại dữ liệu được giới thiệu trong bài học, bốn kiểu dữ liệu thường gặp trong máy tính là những kiểu nào sau đây?",
+      q: " Theo cách phân loại dữ liệu được giới thiệu trong bài học, bốn kiểu dữ liệu thường gặp trong máy tính là những kiểu nào sau đây?",
       options: [
         "Văn bản, số, hình ảnh, âm thanh",
         "Văn bản, số, logic, đa phương tiện",
@@ -148,12 +148,12 @@ const PART1 = {
       answer: 1
     },
     {
-      q: "Câu 16. Theo cách mã hóa UTF-8 được giới thiệu trong sách giáo khoa, một kí tự Unicode có thể được biểu diễn bằng bao nhiêu byte?",
+      q: " Theo cách mã hóa UTF-8 được giới thiệu trong sách giáo khoa, một kí tự Unicode có thể được biểu diễn bằng bao nhiêu byte?",
       options: ["Từ 1 đến 2 byte", "Chính xác 2 byte", "Chính xác 4 byte", "Từ 1 đến 4 byte"],
       answer: 3
     },
     {
-      q: "Câu 17. Trong danh sách học sinh, mã thẻ “0018” được sử dụng để nhận diện một học sinh và cần giữ nguyên hai chữ số 0 ở đầu. Mã thẻ này nên được biểu diễn bằng kiểu dữ liệu nào?",
+      q: " Trong danh sách học sinh, mã thẻ “0018” được sử dụng để nhận diện một học sinh và cần giữ nguyên hai chữ số 0 ở đầu. Mã thẻ này nên được biểu diễn bằng kiểu dữ liệu nào?",
       options: [
         "Văn bản, vì đây là chuỗi kí tự dùng để nhận diện học sinh.",
         "Số, vì mã thẻ chỉ chứa các chữ số từ 0 đến 9.",
@@ -163,7 +163,7 @@ const PART1 = {
       answer: 0
     },
     {
-      q: "Câu 18. Vì sao bảng mã Unicode phù hợp hơn bảng mã ASCII gốc khi biểu diễn văn bản tiếng Việt có dấu?",
+      q: " Vì sao bảng mã Unicode phù hợp hơn bảng mã ASCII gốc khi biểu diễn văn bản tiếng Việt có dấu?",
       options: [
         "Unicode thay thế phần mềm soạn thảo khi nhập văn bản tiếng Việt.",
         "ASCII gốc có thể biểu diễn đầy đủ tiếng Việt nếu thay đổi phông chữ.",
@@ -173,7 +173,7 @@ const PART1 = {
       answer: 3
     },
     {
-      q: "Câu 19. Một kí tự được gán mã số 200 trong bảng mã ASCII mở rộng. Vì sao không thể biểu diễn mã số này bằng 7 bit như trong bảng mã ASCII gốc?",
+      q: " Một kí tự được gán mã số 200 trong bảng mã ASCII mở rộng. Vì sao không thể biểu diễn mã số này bằng 7 bit như trong bảng mã ASCII gốc?",
       options: [
         "Vì mã số 200 chỉ được sử dụng trong bảng mã Unicode.",
         "Vì mã số 200 phải được biểu diễn bằng ít nhất 16 bit.",
@@ -183,7 +183,7 @@ const PART1 = {
       answer: 2
     },
     {
-      q: "Câu 20. Một nhóm học sinh xây dựng danh sách thành viên câu lạc bộ, trong đó có các họ tên như “Nguyễn Hà”, “Trần Đức”, “Đỗ Thị Ánh”. Nhóm cần lưu tệp văn bản và trao đổi với các máy tính khác mà vẫn giữ chính xác dấu tiếng Việt. Phương án nào sau đây phù hợp nhất?",
+      q: " Một nhóm học sinh xây dựng danh sách thành viên câu lạc bộ, trong đó có các họ tên như “Nguyễn Hà”, “Trần Đức”, “Đỗ Thị Ánh”. Nhóm cần lưu tệp văn bản và trao đổi với các máy tính khác mà vẫn giữ chính xác dấu tiếng Việt. Phương án nào sau đây phù hợp nhất?",
       options: [
         "Sử dụng bảng mã ASCII gốc vì mỗi kí tự chỉ cần 7 bit.",
         "Sử dụng bảng mã Unicode với cách mã hóa UTF-8 để lưu văn bản.",
@@ -193,7 +193,7 @@ const PART1 = {
       answer: 1
     },
     {
-      q: "Câu 21. Một trường học cần tạo tệp văn bản chứa cả mã lớp như “10A1”, “10A2” và họ tên học sinh có dấu như “Hà”, “Nguyễn”, “Đỗ”. Tệp sẽ được chuyển giữa nhiều máy tính. Nhóm thực hiện cần lựa chọn cách mã hóa vừa bảo toàn các kí tự tiếng Việt, vừa không bắt buộc mọi kí tự phải chiếm 4 byte. Giải pháp nào sau đây phù hợp nhất?",
+      q: " Một trường học cần tạo tệp văn bản chứa cả mã lớp như “10A1”, “10A2” và họ tên học sinh có dấu như “Hà”, “Nguyễn”, “Đỗ”. Tệp sẽ được chuyển giữa nhiều máy tính. Nhóm thực hiện cần lựa chọn cách mã hóa vừa bảo toàn các kí tự tiếng Việt, vừa không bắt buộc mọi kí tự phải chiếm 4 byte. Giải pháp nào sau đây phù hợp nhất?",
       options: [
         "Sử dụng ASCII gốc cho toàn bộ tệp vì các kí tự đều được mã hóa bằng 7 bit.",
         "Sử dụng ASCII mở rộng vì mọi bảng mã 8 bit đều chứa đầy đủ kí tự tiếng Việt.",
@@ -203,47 +203,47 @@ const PART1 = {
       answer: 3
     },
     {
-      q: "Câu 22. Hệ nhị phân sử dụng những chữ số nào để biểu diễn các số?",
+      q: " Hệ nhị phân sử dụng những chữ số nào để biểu diễn các số?",
       options: ["0 và 1", "0, 1 và 2", "Các chữ số từ 1 đến 9", "Các chữ số từ 0 đến 9"],
       answer: 0
     },
     {
-      q: "Câu 23. Trong phép cộng hai số nhị phân, kết quả của phép tính 1 + 1 là",
+      q: " Trong phép cộng hai số nhị phân, kết quả của phép tính 1 + 1 là",
       options: ["11₂", "10₂", "1₂", "100₂"],
       answer: 1
     },
     {
-      q: "Câu 24. Số nhị phân 1101₂ có giá trị bằng bao nhiêu trong hệ thập phân?",
+      q: " Số nhị phân 1101₂ có giá trị bằng bao nhiêu trong hệ thập phân?",
       options: ["11", "12", "13", "14"],
       answer: 2
     },
     {
-      q: "Câu 25. Khi chuyển số thập phân 26 sang hệ nhị phân, kết quả nào sau đây là đúng?",
+      q: " Khi chuyển số thập phân 26 sang hệ nhị phân, kết quả nào sau đây là đúng?",
       options: ["11010₂", "11001₂", "11100₂", "10110₂"],
       answer: 0
     },
     {
-      q: "Câu 26. Một chương trình cần cộng hai số nguyên dương được biểu diễn trong hệ nhị phân là 1011₂ và 1101₂. Kết quả phép cộng trong hệ nhị phân là",
+      q: " Một chương trình cần cộng hai số nguyên dương được biểu diễn trong hệ nhị phân là 1011₂ và 1101₂. Kết quả phép cộng trong hệ nhị phân là",
       options: ["10110₂", "11000₂", "11010₂", "11100₂"],
       answer: 1
     },
     {
-      q: "Câu 27. Một chương trình thực hiện phép nhân hai số nhị phân 110₂ và 101₂. Kết quả của phép nhân được biểu diễn trong hệ nhị phân là",
+      q: " Một chương trình thực hiện phép nhân hai số nhị phân 110₂ và 101₂. Kết quả của phép nhân được biểu diễn trong hệ nhị phân là",
       options: ["11110₂", "11100₂", "10110₂", "11010₂"],
       answer: 0
     },
     {
-      q: "Câu 28. Một hệ thống quản lí kho lưu số lượng sản phẩm của hai nhóm lần lượt là 1011₂ và 110₂. Mỗi sản phẩm cần 10₂ đơn vị dung lượng lưu trữ. Hệ thống tính tổng dung lượng cần thiết bằng cách cộng số lượng sản phẩm của hai nhóm, sau đó nhân với dung lượng của mỗi sản phẩm. Kết quả được lưu dưới dạng số nhị phân không dấu gồm 8 bit. Dãy bit nào sau đây là kết quả đúng?",
+      q: " Một hệ thống quản lí kho lưu số lượng sản phẩm của hai nhóm lần lượt là 1011₂ và 110₂. Mỗi sản phẩm cần 10₂ đơn vị dung lượng lưu trữ. Hệ thống tính tổng dung lượng cần thiết bằng cách cộng số lượng sản phẩm của hai nhóm, sau đó nhân với dung lượng của mỗi sản phẩm. Kết quả được lưu dưới dạng số nhị phân không dấu gồm 8 bit. Dãy bit nào sau đây là kết quả đúng?",
       options: ["00010001", "00100001", "00100010", "00100100"],
       answer: 2
     },
     {
-      q: "Câu 29. Trong máy tính, hai giá trị logic Đúng (True) và Sai (False) thường được biểu diễn lần lượt bằng những bit nào?",
+      q: " Trong máy tính, hai giá trị logic Đúng (True) và Sai (False) thường được biểu diễn lần lượt bằng những bit nào?",
       options: ["0 và 1", "1 và 0", "1 và 1", "0 và 0"],
       answer: 1
     },
     {
-      q: "Câu 30. Phép toán logic XOR giữa hai mệnh đề p và q cho kết quả Đúng khi nào?",
+      q: " Phép toán logic XOR giữa hai mệnh đề p và q cho kết quả Đúng khi nào?",
       options: [
         "Khi cả p và q đều mang giá trị Đúng.",
         "Khi cả p và q đều mang giá trị Sai.",
@@ -253,27 +253,27 @@ const PART1 = {
       answer: 3
     },
     {
-      q: "Câu 31. Cho hai biến logic p = 1 và q = 0. Cặp giá trị của hai biểu thức NOT p và p AND q lần lượt là",
+      q: " Cho hai biến logic p = 1 và q = 0. Cặp giá trị của hai biểu thức NOT p và p AND q lần lượt là",
       options: ["(0, 0)", "(0, 1)", "(1, 0)", "(1, 1)"],
       answer: 0
     },
     {
-      q: "Câu 32. Cho hai biến logic p = 1 và q = 1. Cặp giá trị của hai biểu thức p OR q và p XOR q lần lượt là",
+      q: " Cho hai biến logic p = 1 và q = 1. Cặp giá trị của hai biểu thức p OR q và p XOR q lần lượt là",
       options: ["(0, 0)", "(1, 0)", "(0, 1)", "(1, 1)"],
       answer: 1
     },
     {
-      q: "Câu 33. Cho ba biến logic p = 0, q = 1 và r = 1. Cặp giá trị của hai biểu thức p AND (q OR r) và (p AND q) OR r lần lượt là",
+      q: " Cho ba biến logic p = 0, q = 1 và r = 1. Cặp giá trị của hai biểu thức p AND (q OR r) và (p AND q) OR r lần lượt là",
       options: ["(0, 0)", "(1, 0)", "(0, 1)", "(1, 1)"],
       answer: 2
     },
     {
-      q: "Câu 34. Một mạch điện gồm hai công tắc K1 và K2 mắc nối tiếp để điều khiển một bóng đèn. Quy ước công tắc đóng có giá trị logic 1, công tắc mở có giá trị logic 0. Gọi p và q lần lượt là giá trị logic của K1 và K2. Biết K1 đang đóng, K2 đang mở. Phương án nào sau đây biểu diễn đúng điều kiện đèn sáng và xác định đúng trạng thái hiện tại của bóng đèn?",
+      q: " Một mạch điện gồm hai công tắc K1 và K2 mắc nối tiếp để điều khiển một bóng đèn. Quy ước công tắc đóng có giá trị logic 1, công tắc mở có giá trị logic 0. Gọi p và q lần lượt là giá trị logic của K1 và K2. Biết K1 đang đóng, K2 đang mở. Phương án nào sau đây biểu diễn đúng điều kiện đèn sáng và xác định đúng trạng thái hiện tại của bóng đèn?",
       options: ["p OR q; đèn sáng", "p XOR q; đèn sáng", "p AND q; đèn sáng", "p AND q; đèn tắt"],
       answer: 3
     },
     {
-      q: "Câu 35. Một hệ thống chiếu sáng tự động sử dụng hai cảm biến K1, K2 và một công tắc khóa an toàn K3. Hệ thống được thiết kế theo các yêu cầu: Đèn chỉ được bật khi đúng một trong hai cảm biến K1 hoặc K2 được kích hoạt. Nếu công tắc khóa an toàn K3 được bật thì đèn phải tắt, bất kể trạng thái của hai cảm biến. Quy ước p, q lần lượt là giá trị logic của hai cảm biến K1, K2; r là giá trị logic của công tắc khóa an toàn K3 (1 là đang bật khóa, 0 là không bật khóa). Tại một thời điểm, p = 1, q = 0 và r = 0. Phương án nào sau đây biểu diễn đúng điều kiện đèn sáng và xác định đúng trạng thái của đèn tại thời điểm đó?",
+      q: " Một hệ thống chiếu sáng tự động sử dụng hai cảm biến K1, K2 và một công tắc khóa an toàn K3. Hệ thống được thiết kế theo các yêu cầu: Đèn chỉ được bật khi đúng một trong hai cảm biến K1 hoặc K2 được kích hoạt. Nếu công tắc khóa an toàn K3 được bật thì đèn phải tắt, bất kể trạng thái của hai cảm biến. Quy ước p, q lần lượt là giá trị logic của hai cảm biến K1, K2; r là giá trị logic của công tắc khóa an toàn K3 (1 là đang bật khóa, 0 là không bật khóa). Tại một thời điểm, p = 1, q = 0 và r = 0. Phương án nào sau đây biểu diễn đúng điều kiện đèn sáng và xác định đúng trạng thái của đèn tại thời điểm đó?",
       options: [
         "(p OR q) AND (NOT r); đèn sáng",
         "(p XOR q) AND (NOT r); đèn sáng",
@@ -283,7 +283,7 @@ const PART1 = {
       answer: 1
     },
     {
-      q: "Câu 36. Trong quá trình số hóa âm thanh theo phương pháp PCM, thao tác lấy mẫu được thực hiện nhằm mục đích gì?",
+      q: " Trong quá trình số hóa âm thanh theo phương pháp PCM, thao tác lấy mẫu được thực hiện nhằm mục đích gì?",
       options: [
         "Ghi lại giá trị biên độ tín hiệu âm thanh tại các thời điểm xác định.",
         "Loại bỏ toàn bộ các thành phần nhiễu có trong tín hiệu âm thanh.",
@@ -293,7 +293,7 @@ const PART1 = {
       answer: 0
     },
     {
-      q: "Câu 37. Trong hệ màu RGB, màu của một điểm ảnh được tạo thành từ ba thành phần màu cơ bản nào?",
+      q: " Trong hệ màu RGB, màu của một điểm ảnh được tạo thành từ ba thành phần màu cơ bản nào?",
       options: [
         "Đỏ, vàng, xanh dương",
         "Đỏ, xanh lục, vàng",
@@ -303,12 +303,12 @@ const PART1 = {
       answer: 2
     },
     {
-      q: "Câu 38. Một đoạn âm thanh được số hóa theo phương pháp PCM. Nếu tăng số mẫu lấy trong mỗi giây lên gấp đôi, trong khi thời lượng và số bit biểu diễn mỗi mẫu không thay đổi, dung lượng dữ liệu âm thanh chưa nén sẽ thay đổi như thế nào?",
+      q: " Một đoạn âm thanh được số hóa theo phương pháp PCM. Nếu tăng số mẫu lấy trong mỗi giây lên gấp đôi, trong khi thời lượng và số bit biểu diễn mỗi mẫu không thay đổi, dung lượng dữ liệu âm thanh chưa nén sẽ thay đổi như thế nào?",
       options: ["Giảm một nửa", "Không thay đổi", "Tăng gấp bốn lần", "Tăng gấp đôi"],
-      answer: 3
+      answer: 1
     },
     {
-      q: "Câu 39. Nhận định nào sau đây đúng khi so sánh hai định dạng ảnh JPEG và PNG?",
+      q: " Nhận định nào sau đây đúng khi so sánh hai định dạng ảnh JPEG và PNG?",
       options: [
         "JPEG và PNG đều sử dụng phương pháp nén có mất mát.",
         "JPEG nén không mất mát, còn PNG nén có mất mát.",
@@ -318,7 +318,7 @@ const PART1 = {
       answer: 2
     },
     {
-      q: "Câu 40. Một học sinh cần đăng tải bản ghi âm bài thuyết trình lên trang web của lớp. Yêu cầu là tệp âm thanh có dung lượng nhỏ để thuận tiện tải xuống, đồng thời chấp nhận chất lượng âm thanh giảm không đáng kể. Phương án nào sau đây phù hợp nhất?",
+      q: " Một học sinh cần đăng tải bản ghi âm bài thuyết trình lên trang web của lớp. Yêu cầu là tệp âm thanh có dung lượng nhỏ để thuận tiện tải xuống, đồng thời chấp nhận chất lượng âm thanh giảm không đáng kể. Phương án nào sau đây phù hợp nhất?",
       options: [
         "Lưu dưới dạng WAV với dữ liệu PCM không nén để giảm dung lượng.",
         "Lưu dưới dạng MP3 với phương pháp nén có mất mát để giảm dung lượng.",
@@ -328,7 +328,7 @@ const PART1 = {
       answer: 1
     },
     {
-      q: "Câu 41. Một nhóm học sinh thiết kế biểu tượng cho trang web của trường. Biểu tượng có nhiều màu sắc, cần hiển thị trên các nền có màu khác nhau mà không xuất hiện nền hình chữ nhật bao quanh. Nhóm cũng muốn tránh mất chất lượng hình ảnh do quá trình nén. Định dạng tệp nào sau đây phù hợp nhất?",
+      q: " Một nhóm học sinh thiết kế biểu tượng cho trang web của trường. Biểu tượng có nhiều màu sắc, cần hiển thị trên các nền có màu khác nhau mà không xuất hiện nền hình chữ nhật bao quanh. Nhóm cũng muốn tránh mất chất lượng hình ảnh do quá trình nén. Định dạng tệp nào sau đây phù hợp nhất?",
       options: [
         "JPEG, vì hỗ trợ nền trong suốt và nén không mất mát.",
         "BMP, vì luôn có dung lượng nhỏ hơn các định dạng ảnh khác.",
@@ -338,7 +338,7 @@ const PART1 = {
       answer: 3
     },
     {
-      q: "Câu 42. Một nhóm học sinh xây dựng kho học liệu số với hai yêu cầu: Âm thanh: Một đoạn ghi âm dài 10 giây được số hóa bằng PCM với tốc độ 8 000 mẫu/giây, mỗi mẫu biểu diễn bằng 8 bit. Nhóm muốn tăng số mẫu lấy trong mỗi giây lên 16 000 mẫu/giây, giữ nguyên thời lượng và số bit cho mỗi mẫu. Hình ảnh: Một biểu tượng của trường cần có nền trong suốt và không bị mất chất lượng do quá trình nén ảnh. Nhận định nào sau đây đúng về sự thay đổi dung lượng dữ liệu âm thanh chưa nén và định dạng ảnh cần lựa chọn?",
+      q: " Một nhóm học sinh xây dựng kho học liệu số với hai yêu cầu: Âm thanh: Một đoạn ghi âm dài 10 giây được số hóa bằng PCM với tốc độ 8 000 mẫu/giây, mỗi mẫu biểu diễn bằng 8 bit. Nhóm muốn tăng số mẫu lấy trong mỗi giây lên 16 000 mẫu/giây, giữ nguyên thời lượng và số bit cho mỗi mẫu. Hình ảnh: Một biểu tượng của trường cần có nền trong suốt và không bị mất chất lượng do quá trình nén ảnh. Nhận định nào sau đây đúng về sự thay đổi dung lượng dữ liệu âm thanh chưa nén và định dạng ảnh cần lựa chọn?",
       options: [
         "Dung lượng âm thanh giảm một nửa; biểu tượng nên lưu dưới dạng PNG.",
         "Dung lượng âm thanh tăng gấp đôi; biểu tượng nên lưu dưới dạng JPEG.",
@@ -348,22 +348,22 @@ const PART1 = {
       answer: 2
     },
     {
-      q: "Câu 43. Trên màn hình chính của điện thoại thông minh, khu vực nào thường hiển thị thời gian, trạng thái kết nối mạng và mức pin còn lại?",
+      q: " Trên màn hình chính của điện thoại thông minh, khu vực nào thường hiển thị thời gian, trạng thái kết nối mạng và mức pin còn lại?",
       options: ["Thanh điều hướng", "Thanh trạng thái", "Thanh truy cập nhanh", "Danh sách ứng dụng"],
       answer: 1
     },
     {
-      q: "Câu 44. Để xem, sao chép, di chuyển hoặc xóa các tệp được lưu trong bộ nhớ điện thoại, người dùng cần sử dụng loại ứng dụng nào sau đây?",
+      q: " Để xem, sao chép, di chuyển hoặc xóa các tệp được lưu trong bộ nhớ điện thoại, người dùng cần sử dụng loại ứng dụng nào sau đây?",
       options: ["Ứng dụng chụp ảnh", "Ứng dụng duyệt web", "Ứng dụng quản lí tệp", "Ứng dụng nhắn tin"],
       answer: 2
     },
     {
-      q: "Câu 45. Một học sinh đang sử dụng điện thoại Android và đã mở nhiều ứng dụng. Học sinh muốn hiển thị danh sách các ứng dụng đang chạy để chuyển sang ứng dụng đã mở trước đó. Theo giao diện điều hướng ba nút được giới thiệu trong sách giáo khoa, học sinh cần chọn nút nào?",
+      q: " Một học sinh đang sử dụng điện thoại Android và đã mở nhiều ứng dụng. Học sinh muốn hiển thị danh sách các ứng dụng đang chạy để chuyển sang ứng dụng đã mở trước đó. Theo giao diện điều hướng ba nút được giới thiệu trong sách giáo khoa, học sinh cần chọn nút nào?",
       options: ["Nút Home", "Nút Quay lại (Back)", "Nút Tổng quan (Overview)", "Nút khóa màn hình"],
       answer: 2
     },
     {
-      q: "Câu 46. Một học sinh sử dụng ứng dụng quản lí tệp để sao chép tệp BaiTap.docx từ thư mục Download sang thư mục HocTap. Sau khi thao tác sao chép thành công, kết quả nào sau đây là đúng?",
+      q: " Một học sinh sử dụng ứng dụng quản lí tệp để sao chép tệp BaiTap.docx từ thư mục Download sang thư mục HocTap. Sau khi thao tác sao chép thành công, kết quả nào sau đây là đúng?",
       options: [
         "Tệp được giữ trong Download và có thêm bản sao trong HocTap.",
         "Tệp bị xóa khỏi Download và chỉ còn xuất hiện trong HocTap.",
@@ -373,7 +373,7 @@ const PART1 = {
       answer: 0
     },
     {
-      q: "Câu 47. Một học sinh đã tải một số ảnh học tập từ điện thoại lên Google Drive. So với việc chỉ lưu ảnh trong bộ nhớ trong của điện thoại, lợi ích nào sau đây phù hợp với việc sử dụng dịch vụ lưu trữ đám mây?",
+      q: " Một học sinh đã tải một số ảnh học tập từ điện thoại lên Google Drive. So với việc chỉ lưu ảnh trong bộ nhớ trong của điện thoại, lợi ích nào sau đây phù hợp với việc sử dụng dịch vụ lưu trữ đám mây?",
       options: [
         "Các ảnh sẽ được lưu trực tiếp vào bộ nhớ trong của mọi thiết bị.",
         "Các ảnh có thể được truy cập từ thiết bị khác thông qua tài khoản phù hợp khi có kết nối mạng.",
@@ -383,7 +383,7 @@ const PART1 = {
       answer: 1
     },
     {
-      q: "Câu 48. Một học sinh đã chụp nhiều ảnh bằng điện thoại Android. Học sinh cần sao chép các ảnh này sang máy tính để làm bài thuyết trình nhưng vẫn muốn giữ ảnh gốc trên điện thoại. Giả sử các ảnh được lưu tại Bộ nhớ trong/DCIM/Camera và điện thoại đã được kết nối với máy tính ở chế độ truyền tệp. Cách thực hiện nào sau đây phù hợp nhất?",
+      q: " Một học sinh đã chụp nhiều ảnh bằng điện thoại Android. Học sinh cần sao chép các ảnh này sang máy tính để làm bài thuyết trình nhưng vẫn muốn giữ ảnh gốc trên điện thoại. Giả sử các ảnh được lưu tại Bộ nhớ trong/DCIM/Camera và điện thoại đã được kết nối với máy tính ở chế độ truyền tệp. Cách thực hiện nào sau đây phù hợp nhất?",
       options: [
         "Mở thư mục Download trên điện thoại, di chuyển toàn bộ tệp sang máy tính.",
         "Mở thư mục DCIM/Camera trên điện thoại, xóa ảnh sau khi xem trên máy tính.",
@@ -393,7 +393,7 @@ const PART1 = {
       answer: 3
     },
     {
-      q: "Câu 49. Một nhóm học sinh thực hiện dự án “Trường học xanh”. Nhóm sử dụng điện thoại để chụp ảnh hoạt động, sau đó cần tiếp tục xử lí ảnh trên máy tính và chia sẻ với các thành viên trong nhóm. Nhóm đặt ra các yêu cầu: Ảnh dự án phải được tổ chức trong thư mục riêng để dễ tìm kiếm. Ảnh gốc trên điện thoại cần được giữ lại. Các thành viên được phép phải có thể truy cập ảnh dự án từ thiết bị khác. Không chia sẻ nhầm ảnh cá nhân hoặc các tệp không liên quan. Phương án nào sau đây đáp ứng đầy đủ các yêu cầu trên?",
+      q: " Một nhóm học sinh thực hiện dự án “Trường học xanh”. Nhóm sử dụng điện thoại để chụp ảnh hoạt động, sau đó cần tiếp tục xử lí ảnh trên máy tính và chia sẻ với các thành viên trong nhóm. Nhóm đặt ra các yêu cầu: Ảnh dự án phải được tổ chức trong thư mục riêng để dễ tìm kiếm. Ảnh gốc trên điện thoại cần được giữ lại. Các thành viên được phép phải có thể truy cập ảnh dự án từ thiết bị khác. Không chia sẻ nhầm ảnh cá nhân hoặc các tệp không liên quan. Phương án nào sau đây đáp ứng đầy đủ các yêu cầu trên?",
       options: [
         "Di chuyển toàn bộ thư mục DCIM lên Google Drive, sau đó công khai liên kết để các thành viên truy cập.",
         "Tạo thư mục riêng cho dự án, sao chép các ảnh cần thiết vào đó, tải lên Google Drive và chia sẻ đúng thư mục dự án cho các thành viên được phép.",
@@ -403,7 +403,7 @@ const PART1 = {
       answer: 1
     },
     {
-      q: "Câu 50. Mạng máy tính cục bộ (LAN) có đặc điểm nào sau đây?",
+      q: " Mạng máy tính cục bộ (LAN) có đặc điểm nào sau đây?",
       options: [
         "Kết nối các máy tính trên phạm vi toàn cầu.",
         "Kết nối các thiết bị trong phạm vi địa lí nhỏ.",
@@ -413,7 +413,7 @@ const PART1 = {
       answer: 1
     },
     {
-      q: "Câu 51. Internet vạn vật (IoT) được hiểu là gì?",
+      q: " Internet vạn vật (IoT) được hiểu là gì?",
       options: [
         "Hệ thống kết nối các máy tính cá nhân để chia sẻ dữ liệu trong mạng LAN.",
         "Hệ thống cung cấp các phần mềm ứng dụng trực tuyến qua Internet.",
@@ -423,7 +423,7 @@ const PART1 = {
       answer: 2
     },
     {
-      q: "Câu 52. Một công ty phát triển phần mềm thuê một hệ thống nền tảng trực tuyến, trong đó có sẵn các công cụ hỗ trợ xây dựng và triển khai ứng dụng. Vì sao dịch vụ này được xếp vào loại PaaS?",
+      q: " Một công ty phát triển phần mềm thuê một hệ thống nền tảng trực tuyến, trong đó có sẵn các công cụ hỗ trợ xây dựng và triển khai ứng dụng. Vì sao dịch vụ này được xếp vào loại PaaS?",
       options: [
         "Vì công ty thuê nền tảng phục vụ việc phát triển và triển khai ứng dụng.",
         "Vì công ty thuê phần mềm hoàn chỉnh để sử dụng trực tiếp.",
@@ -433,7 +433,7 @@ const PART1 = {
       answer: 0
     },
     {
-      q: "Câu 53. Một trường học có mạng LAN kết nối các máy tính trong phòng Tin học. Khi đường truyền Internet bị gián đoạn, các máy tính vẫn có thể truy cập thư mục dùng chung trên một máy tính nội bộ đang hoạt động bình thường. Nguyên nhân nào sau đây giải thích đúng hiện tượng này?",
+      q: " Một trường học có mạng LAN kết nối các máy tính trong phòng Tin học. Khi đường truyền Internet bị gián đoạn, các máy tính vẫn có thể truy cập thư mục dùng chung trên một máy tính nội bộ đang hoạt động bình thường. Nguyên nhân nào sau đây giải thích đúng hiện tượng này?",
       options: [
         "Vì mạng LAN tự động chuyển thành mạng Internet khi mất kết nối.",
         "Vì các thiết bị trong mạng LAN có thể trao đổi dữ liệu nội bộ mà không cần Internet.",
@@ -443,7 +443,7 @@ const PART1 = {
       answer: 1
     },
     {
-      q: "Câu 54. Một trang trại muốn xây dựng hệ thống tưới cây thông minh. Hệ thống cần thu thập dữ liệu độ ẩm đất, tự động bật máy bơm khi đất quá khô và cho phép người quản lí theo dõi trạng thái từ xa qua Internet. Phương án nào sau đây phù hợp nhất với mô hình IoT?",
+      q: " Một trang trại muốn xây dựng hệ thống tưới cây thông minh. Hệ thống cần thu thập dữ liệu độ ẩm đất, tự động bật máy bơm khi đất quá khô và cho phép người quản lí theo dõi trạng thái từ xa qua Internet. Phương án nào sau đây phù hợp nhất với mô hình IoT?",
       options: [
         "Sử dụng máy bơm có công tắc cơ học và ghi chép độ ẩm đất bằng sổ tay.",
         "Kết nối cảm biến độ ẩm với bộ điều khiển, truyền dữ liệu qua Internet và điều khiển máy bơm tự động.",
@@ -453,7 +453,7 @@ const PART1 = {
       answer: 1
     },
     {
-      q: "Câu 55. Một trường THPT đang xây dựng mô hình trường học số với ba yêu cầu: Yêu cầu 1: Các máy tính trong phòng Tin học có thể chia sẻ máy in và tệp dữ liệu nội bộ ngay cả khi mất kết nối Internet. Yêu cầu 2: Giáo viên có thể cùng soạn thảo tài liệu trực tuyến từ nhiều địa điểm khác nhau mà không phải tự quản trị máy chủ ứng dụng. Yêu cầu 3: Hệ thống vườn thông minh sử dụng cảm biến để thu thập dữ liệu môi trường, tự động điều khiển thiết bị và cho phép theo dõi từ xa qua Internet. Phương án nào sau đây đáp ứng đầy đủ cả ba yêu cầu?",
+      q: " Một trường THPT đang xây dựng mô hình trường học số với ba yêu cầu: Yêu cầu 1: Các máy tính trong phòng Tin học có thể chia sẻ máy in và tệp dữ liệu nội bộ ngay cả khi mất kết nối Internet. Yêu cầu 2: Giáo viên có thể cùng soạn thảo tài liệu trực tuyến từ nhiều địa điểm khác nhau mà không phải tự quản trị máy chủ ứng dụng. Yêu cầu 3: Hệ thống vườn thông minh sử dụng cảm biến để thu thập dữ liệu môi trường, tự động điều khiển thiết bị và cho phép theo dõi từ xa qua Internet. Phương án nào sau đây đáp ứng đầy đủ cả ba yêu cầu?",
       options: [
         "Xây dựng mạng LAN nội bộ; sử dụng dịch vụ SaaS; triển khai hệ thống IoT kết nối Internet.",
         "Sử dụng Internet thay cho mạng LAN nội bộ; thuê dịch vụ PaaS; lắp đặt hệ thống tưới thủ công.",
@@ -520,8 +520,8 @@ const PART2 = {
       q: "Cô giáo giao nhiệm vụ tạo một trang web giới thiệu về trường học có chứa đồng thời tiếng Việt, tiếng Anh và tiếng Nhật. Nhóm của Lan quyết định sử dụng bảng mã Unicode (với định dạng UTF-8) khi thiết kế trang web này thay vì sử dụng các bảng mã cục bộ.",
       st: [
         { t: "Unicode quy định mã cho các kí tự thuộc nhiều hệ chữ viết; với cách mã hóa UTF-8, một kí tự có thể được biểu diễn bằng từ 1 đến 4 byte.", a: true },
-        { t: "Nhóm của Lan sử dụng bảng mã Unicode nhằm tránh tình trạng thiếu vị trí kí tự và giải quyết nhu cầu dùng nhiều ngôn ngữ đồng thời trong cùng một ứng dụng.", a: true },
-        { t: "Trong định dạng UTF-8, tất cả các kí tự tiếng Việt có dấu hay chữ tượng hình tiếng Nhật đều được mã hoá với độ dài cố định là 2 byte giống hệt nhau.", a: false },
+        { t: "Nhóm của Lan sử dụng bảng mã Unicode nhằm tránh tình trạng thiếu vị trí kí tự và giải quyết nhu cầu dùng nhiều ngôn ngữ đồng thời trong cùng một ứng dụng.", a: false },
+        { t: "Trong định dạng UTF-8, tất cả các kí tự tiếng Việt có dấu hay chữ tượng hình tiếng Nhật đều được mã hoá với độ dài cố định là 2 byte giống hệt nhau.", a: true },
         { t: "Nếu Lan gõ dòng chữ tiếng Anh “School”, hệ thống UTF-8 sẽ mã hoá mỗi kí tự trong từ này bằng 1 byte, hoàn toàn tương thích với bảng mã ASCII gốc.", a: true }
       ]
     },
@@ -576,7 +576,7 @@ const PART2 = {
         { t: "Định dạng BMP thường được sử dụng để lưu trữ ảnh bitmap không nén.", a: true },
         { t: "Để logo có nền trong suốt giúp dễ dàng chồng lên các hình ảnh khác trên website mà không bị che khuất, Minh nên chọn lưu logo dưới định dạng JPEG.", a: false },
         { t: "Nếu Minh lưu logo dưới định dạng PNG, tệp ảnh sẽ có độ nén tốt, không mất mát chất lượng hình ảnh và dung lượng thường nhỏ hơn so với tệp BMP nguyên gốc.", a: true },
-        { t: "Giả sử logo Minh thiết kế có kích thước 100 x 100 điểm ảnh, sử dụng hệ màu RGB với độ sâu màu 24 bit và lưu dưới dạng không nén. Dung lượng cần thiết để lưu trữ riêng phần dữ liệu các điểm ảnh (chưa tính thông tin phụ) của logo này là đúng 30 000 byte.", a: false }
+        { t: "Giả sử logo Minh thiết kế có kích thước 100 x 100 điểm ảnh, sử dụng hệ màu RGB với độ sâu màu 24 bit và lưu dưới dạng không nén. Dung lượng cần thiết để lưu trữ riêng phần dữ liệu các điểm ảnh (chưa tính thông tin phụ) của logo này là đúng 30 000 byte.", a: true }
       ]
     },
     {
